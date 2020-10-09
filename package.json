@@ -1,0 +1,24 @@
+{
+  "name": "exel-course",
+  "version": "1.0.0",
+  "description": "Pure Javascript Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lip-ok/exel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Alexander Lipen <lipenjob@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lip-ok/exel-course/issues"
+  },
+  "homepage": "https://github.com/Lip-ok/exel-course#readme"
+}
