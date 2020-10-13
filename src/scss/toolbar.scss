@@ -2,5 +2,17 @@
 @import "variable";
 
 .excel__toolbar{
+  position: absolute;
+  top: $header-height;
+  right: 0;
+  left: 0;
+  height: $toolbar-height;
+  border-bottom: 1px solid $border-color;
+  border-top: 1px solid $border-color;
+  padding: 7px 10px;
+  display: flex;
 
+  .button{
+    @include button(green)
+  }
 }
