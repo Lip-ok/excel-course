@@ -46,6 +46,7 @@
     "@babel/polyfill": "^7.11.5",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.2.0",
-    "css-loader": "^4.3.0"
+    "css-loader": "^4.3.0",
+    "normalize.css": "^8.0.1"
   }
 }
