@@ -15,6 +15,7 @@
     min-height: $row-height;
   }
   .row-info{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +29,7 @@
 
   }
   .column{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,5 +59,32 @@
     }
   }
 
+  .col-resize, .row-resize{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background: $resize-primary;
+    opacity: 0;
+    z-index: 1000;
 
+    &:hover{
+      opacity: 1 !important;
+    }
+  }
+  .col-resize{
+    top: 0;
+    width: 4px;
+
+    &:hover{
+      cursor: col-resize;
+    }
+  }
+  .row-resize{
+    left: 0;
+    height: 4px;
+
+    &:hover{
+      cursor: row-resize;
+    }
+  }
 }
